@@ -15,10 +15,4 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * │ 0 │ . │Ent│ + │
      * └───┴───┴───┴───┘
      */
-    [0] = LAYOUT(
-        KC_P7,   KC_P8,   KC_P9,   KC_PSLS,
-        KC_P4,   KC_P5,   KC_P6,   KC_PAST,
-        KC_P1,   KC_P2,   KC_P3,   KC_PMNS,
-        KC_P0,   KC_PDOT, KC_PENT, KC_PPLS
-    )
-};
+    [0] = LAYOUT(KC_I, KC_T, KC_K, KC_P5, KC_P0, KC_L, KC_J, KC_N, KC_F, KC_C, KC_RGHT, KC_LEFT, KC_UP, KC_DOWN, KC_M, KC_0, KC_0, KC_LALT, KC_LGUI, KC_LSFT)};
